@@ -19,7 +19,7 @@ tensorboard --logdir GFRNet_FlowNet --port 8008
 
 # Warped Results
 
-<img src="./imgs/warpface/warp.jpg">
+<img src="./imgs/warp.jpg">
 
 # Citation
 
