@@ -5,7 +5,7 @@ This is only the subnet of GFRNet. The <B>WarpNet</B> takes the degraded observa
 
 <img src="./imgs/WarpNet.png">
 
-# Models
+# Data
 Download the image and landmark data from the following url and put them into ./TrainData/.
 - [BaiduNetDisk]()
 - [GoogleDrive](https://drive.google.com/open?id=1Tjw8DLAzjO7XS9DldvNqiY3OhGekRhIj)
@@ -15,4 +15,20 @@ Download the image and landmark data from the following url and put them into ./
 ```bash
 python train.py
 tensorboard --logdir GFRNet_FlowNet --port 8008
+```
+
+# Warped Results
+
+<img src="./imgs/warpface/warp.jpg">
+
+# Citation
+
+```
+@InProceedings{Li_2018_ECCV,
+author = {Li, Xiaoming and Liu, Ming and Ye, Yuting and Zuo, Wangmeng and Lin, Liang and Yang, Ruigang},
+title = {Learning Warped Guidance for Blind Face Restoration},
+booktitle = {The European Conference on Computer Vision (ECCV)},
+month = {September},
+year = {2018}
+}
 ```
